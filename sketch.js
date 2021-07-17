@@ -87,7 +87,7 @@ function setup(){
 
   
   trex.setCollider("rectangle",0,0,trex.width,trex.height);
-  trex.debug = true;
+//   trex.debug = true;
   
   score = 0;
   lifeCount = 20;
@@ -284,7 +284,7 @@ function spawnObstacles(){
    obstacle.velocityX = -(6 + score/100);
 
   //  obstacle.setCollider("circle",0,0, 50);
-   obstacle.debug = true;
+//    obstacle.debug = true;
 
     //generate random obstacles
     var rand = Math.round(random(1,6));
